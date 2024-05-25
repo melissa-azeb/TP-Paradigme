@@ -13,7 +13,6 @@ public class TesteSystemeEclairage {
        Commande eteindreLampe = new TurnOffLightCommand(l1);
        Commande ajusterLampe = new AdjustBrightnessCommand(l2, 0, 0);
 
-
        allumerLampe.execute();
        eteindreLampe.execute();
        ajusterLampe.execute();
